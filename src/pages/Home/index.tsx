@@ -1,6 +1,9 @@
+import { HomeContainer } from "./styles"
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <HomeContainer>
+      Home
+    </HomeContainer>
   )
 }
