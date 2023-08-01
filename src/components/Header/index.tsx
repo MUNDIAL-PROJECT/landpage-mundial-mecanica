@@ -1,24 +1,15 @@
-import { HeaderContainer, NavContainer } from "./styles"
-import mundialLogo from '../../assets/mundial-logo.png'
+import { HeaderContainer } from "./styles";
+import mundialLogo from "../../assets/mundial-logo.png";
+import { SocialMedia } from "../SocialMedia";
 
 export const Header = () => {
   return (
     <HeaderContainer>
-      <NavContainer>
-        <ul>
-          <li>Início</li>
-          <li>Serviços</li>
-          <li>Agendamentos</li>
-        </ul>
-      </NavContainer>
-      <img src={mundialLogo} alt=""/>
-      <NavContainer>
-        <ul>
-          <li>Sobre Nós</li>
-          <li>Trabalhe Conosco</li>
-          <li>Contato</li>
-        </ul>
-      </NavContainer>
+      <img src={mundialLogo} alt="" />
+      <h1>
+        <strong>MUNDIAL</strong> CENTRO AUTOMOTIVO
+      </h1>
+    <SocialMedia />
     </HeaderContainer>
-  )
-}
+  );
+};
