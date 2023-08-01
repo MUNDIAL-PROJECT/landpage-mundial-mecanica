@@ -1,5 +1,5 @@
 import { HeaderContainer, NavContainer } from "./styles"
-import mundialLogo from '../../assets/mundial-logo.svg'
+import mundialLogo from '../../assets/mundial-logo.png'
 
 export const Header = () => {
   return (
