@@ -1,38 +1,32 @@
 import { styled } from "styled-components";
 
-
 export const HeaderContainer = styled.header`
-  background: ${props => props.theme['mundial-darkblue']};
+  background: ${(props) => props.theme["mundial-darkblue"]};
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-inline: 3.45rem;
   padding-block: 1rem;
 
   img {
     max-width: 7rem;
   }
-`;
 
-export const NavContainer = styled.nav`
-
-  ul {
-    display: flex;
-    gap: 4.5rem;
+  strong {
+    color: ${(props) => props.theme["mundial-lightblue"]};
   }
 
-  li {
-    color: ${props => props.theme['white']};
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0.4rem 0.7rem;
+  h1 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 3.5rem;
+    color: ${(props) => props.theme["mundial-gold"]};
+  }
 
-    &:hover {
-      color: ${props => props.theme['mundial-lightblack']};
-      border: 0;
-      border-radius: 8px;
-      background: ${props => props.theme['mundial-gold']};
-      transition: all 0.2s;
+  @media (max-width: 768px) {
+    justify-content: center;
+
+    h1 {
+      display: none;
     }
   }
 `;

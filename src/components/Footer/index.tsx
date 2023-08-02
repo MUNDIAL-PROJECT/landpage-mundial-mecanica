@@ -3,39 +3,25 @@ import {
   ContactContainer,
   ContactInfoWrapper,
   FooterContainer,
-  IconContainer,
   LeftContainer,
   LogoContainer,
   PoweredByContainer,
   RightContainer,
   SectionTitle,
-  SocialMediaContainer,
 } from "./styles";
 import mundialLogo from "../../assets/mundial-logo.png";
-import linkedinLogo from "../../assets/linkedin-icon.svg";
-import instaLogo from "../../assets/insta-icon.svg";
-import faceLogo from "../../assets/fb-icon.svg";
 import dncLogo from "../../assets/dnc-logo.svg";
 import { Engine, EnvelopeSimple, Wrench } from "@phosphor-icons/react";
+import { SocialMedia } from "../SocialMedia";
 
 export const Footer = () => {
   return (
     <FooterContainer>
       <LeftContainer>
-        <SocialMediaContainer>
+        <div>
           <SectionTitle>Redes Sociais</SectionTitle>
-          <IconContainer>
-            <a href="https://linkedin.com" target="blank">
-              <img src={linkedinLogo} alt="" />
-            </a>
-            <a href="https://instagram.com" target="blank">
-              <img src={instaLogo} alt="" />
-            </a>
-            <a href="https://facebook.com" target="blank">
-              <img src={faceLogo} alt="" />
-            </a>
-          </IconContainer>
-        </SocialMediaContainer>
+          <SocialMedia />
+        </div>
         <AddressContainer>
           <SectionTitle>Venha nos conhecer!</SectionTitle>
           <section>
@@ -61,20 +47,22 @@ export const Footer = () => {
           <SectionTitle>Entre em contato conosco!</SectionTitle>
           <ContactInfoWrapper>
             <li>
-              <EnvelopeSimple size={26} color="#BF9F24" weight="fill"/>
+              <EnvelopeSimple size={26} color="#BF9F24" weight="fill" />
               <h4>
-                Email: {' '}
-                <a href="mailto:mecmundial@bol.com.br">mecmundial@bol.com.br</a>
+                Email{"  "}
+                <a href="mailto:mecmundial@bol.com.br">
+                  mecmundial@bol.com.br
+                </a>
               </h4>
             </li>
             <li>
               <Wrench size={26} color="#BF9F24" weight="fill" />
-              <h4>Mecânica:</h4>
+              <h4>Mecânica</h4>
               <p>(35) 3422-1540</p>
             </li>
             <li>
-              <Engine size={26} color="#BF9F24" weight="fill"/>
-              <h4>Auto Peças:</h4> 
+              <Engine size={26} color="#BF9F24" weight="fill" />
+              <h4>Auto-Peças</h4>
               <p>(35) 3025-0291</p>
             </li>
           </ContactInfoWrapper>
