@@ -16,31 +16,15 @@ export const FooterContainer = styled.footer`
 export const SectionTitle = styled.h3`
   font-size: 1.2rem;
   font-weight: bold;
+  font-family: "Bai Jamjuree", sans-serif;
   text-transform: uppercase;
-  color: ${(props) => props.theme["white"]};
+  color: ${(props) => props.theme["mundial-gold"]};
 `;
 
 export const LeftContainer = styled.div`
   display: flex;
   align-items: flex-start;
   gap: 10rem;
-`;
-
-export const IconContainer = styled.div`
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-
-  a:hover {
-    transition: all 0.3s;
-    transform: scale(1.1);
-  }
-`;
-
-export const SocialMediaContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
 `;
 
 export const AddressContainer = styled.div`
@@ -86,12 +70,14 @@ export const ContactContainer = styled.div`
 
   h4 {
     font-weight: bold;
-    color: ${props => props.theme['mundial-gold']}
+    font-family: "Bai Jamjuree", sans-serif;
+    color: ${(props) => props.theme["mundial-gold"]};
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
     color: ${(props) => props.theme["white"]};
+    cursor: pointer;
   }
 `;
 
