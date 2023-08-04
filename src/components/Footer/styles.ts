@@ -5,12 +5,19 @@ export const FooterContainer = styled.footer`
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  flex-wrap: wrap;
   bottom: 0;
   width: 100%;
 
   background: ${(props) => props.theme["mundial-darkblue"]};
   padding-block: 1.875rem;
   padding-inline: 3.45rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+  }
 `;
 
 export const SectionTitle = styled.h3`
@@ -25,6 +32,12 @@ export const LeftContainer = styled.div`
   display: flex;
   align-items: flex-start;
   gap: 10rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem;
+  }
 `;
 
 export const AddressContainer = styled.div`
@@ -46,12 +59,24 @@ export const LogoContainer = styled.div`
   img {
     max-width: 7rem;
   }
+
+  @media (max-width: 768px) {
+    position: relative;
+    left: auto;
+    transform: none;
+  }
 `;
 
 export const RightContainer = styled.div`
   display: flex;
   align-items: flex-start;
   gap: 10rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem;
+  }
 `;
 
 export const ContactContainer = styled.div`
@@ -65,7 +90,7 @@ export const ContactContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
   }
 
   h4 {
@@ -86,12 +111,4 @@ export const ContactInfoWrapper = styled.ul`
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
-`;
-
-export const PoweredByContainer = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  color: ${(props) => props.theme["white"]};
 `;

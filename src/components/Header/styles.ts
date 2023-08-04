@@ -5,6 +5,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-inline: 3.45rem;
   padding-block: 1rem;
 
@@ -18,15 +19,13 @@ export const HeaderContainer = styled.header`
 
   h1 {
     font-family: "Bai Jamjuree", sans-serif;
-    font-size: 3.5rem;
+    font-size: clamp(1.75rem, 2.5vw, 3rem);
     color: ${(props) => props.theme["mundial-gold"]};
   }
 
   @media (max-width: 768px) {
-    justify-content: center;
-
-    h1 {
-      display: none;
-    }
+    gap: 2rem;
+    text-align: center;
+    padding-block: 2rem;
   }
 `;
