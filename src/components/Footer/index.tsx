@@ -5,12 +5,10 @@ import {
   FooterContainer,
   LeftContainer,
   LogoContainer,
-  PoweredByContainer,
   RightContainer,
   SectionTitle,
 } from "./styles";
 import mundialLogo from "../../assets/mundial-logo.png";
-import dncLogo from "../../assets/dnc-logo.svg";
 import { Engine, EnvelopeSimple, Wrench } from "@phosphor-icons/react";
 import { SocialMedia } from "../SocialMedia";
 
@@ -67,12 +65,6 @@ export const Footer = () => {
             </li>
           </ContactInfoWrapper>
         </ContactContainer>
-        <PoweredByContainer>
-          <SectionTitle>Powered By</SectionTitle>
-          <a href="">
-            <img src={dncLogo} alt="" />
-          </a>
-        </PoweredByContainer>
       </RightContainer>
     </FooterContainer>
   );
