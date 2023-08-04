@@ -9,7 +9,9 @@ export const Header = () => {
       <h1>
         <strong>MUNDIAL</strong> CENTRO AUTOMOTIVO
       </h1>
-    <SocialMedia />
+      <div className="socialMenu">
+        <SocialMedia />
+      </div>
     </HeaderContainer>
   );
 };

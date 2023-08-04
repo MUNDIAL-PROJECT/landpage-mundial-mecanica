@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Imgback from '../../assets/Automotivo-mundial.jpg';
+import styled from "styled-components";
+import Imgback from "../../assets/Automotivo-mundial.jpg";
 
 export const HeroContainer = styled.div`
   position: relative;
@@ -13,44 +13,53 @@ export const HeroContent = styled.div`
   z-index: 2;
   position: relative;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 20px;
-  h1{
-    color: #FFF;
-    font-size: 4rem;
+
+  h1 {
+    color: ${(props) => props.theme["white"]};
+    font-size: clamp(2.5rem, 3vw, 4rem);
   }
-  p{
-    color: #BF9F24;
+
+  p {
+    color: ${(props) => props.theme["mundial-gold"]};
     font-style: italic;
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(1.25em, 1.5vw, 2.25rem);
   }
-  .hero-buttons{
+
+  .hero-buttons {
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-top: 20px;
-    
-    a{
+
+    a {
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 15px;
-      text-decoration: none;
-      color: #FFF;
-      font-size: 1.5rem;
-      background-color: #BF9F24;
+      color: #fff;
+      font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+      background-color: ${(props) => props.theme["mundial-gold"]};
       width: 200px;
       height: 50px;
-      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-      transition: .4s;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      transition: 0.4s;
 
-      &:hover{
+      &:hover {
         background-color: ${(props) => props.theme["mundial-darkblue"]};
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    gap: 4rem;
   }
 `;
 
@@ -71,5 +80,5 @@ export const DarkOverlay = styled.div`
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
-  z-index: 1; /* Coloque acima da imagem de fundo */
+  z-index: 1;
 `;
