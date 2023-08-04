@@ -1,4 +1,4 @@
-import { BackgroundImage, DarkOverlay, HeroContainer, HeroContent } from './styled';
+import { BackgroundImage, DarkOverlay, HeroContainer, HeroContent } from './styles';
 import { Link } from 'react-router-dom';
 export const Hero = () => {
   

@@ -60,10 +60,7 @@ export const BackgroundImage = styled.div`
   background-position: center bottom;
   background-attachment: fixed;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
 `;
 
 //Darkoverlay na imagem para que o conteudo fique mais nitido
