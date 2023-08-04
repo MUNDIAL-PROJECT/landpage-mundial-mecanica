@@ -88,7 +88,7 @@ export const ContactContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-size: clamp(1rem, 1vw, 1.5rem);
   }
 
   h4 {
