@@ -3,7 +3,7 @@ import Imgback from "../../assets/Automotivo-mundial.jpg";
 
 export const HeroContainer = styled.div`
   position: relative;
-  height: 60vh;
+  height: 65vh;
   display: flex;
   align-items: center;
   justify-content: center;
