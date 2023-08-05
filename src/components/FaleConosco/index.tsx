@@ -10,7 +10,7 @@ export const FaleConosco = () => {
       </FaleContentImg>
       <FaleContentForm>
         <form action="" className='faleForm'>
-          <h3>Entre em contato conosco</h3>
+          <h3>Entre em contato conosco <hr /></h3>
           <input type="text" placeholder='Nome' required />
           <input type="email" placeholder='email' required />
           <textarea name="textarea" id="textarea" placeholder='Escreva sua mensagem'></textarea>

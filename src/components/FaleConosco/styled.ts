@@ -47,6 +47,13 @@ export const FaleContentForm = styled.div`
     margin: 0 auto;
     max-width: 600px;
 
+    h3{
+      hr{
+        border: 2px solid ${(props) => props.theme["mundial-gold"]};
+        width: 20%;
+      }
+    }
+
     input{
       padding: 10px 10px;
       border-radius: 10px;
