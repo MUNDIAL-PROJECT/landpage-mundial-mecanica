@@ -29,12 +29,11 @@ export const NavWrapper = styled.nav`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    min-width: 15rem;
+
 
     gap: 3rem;
     padding: 0.75rem 2rem;
-    max-width: 50vw;
+    width: 60vw;
 
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -45,7 +44,7 @@ export const NavWrapper = styled.nav`
     color: ${(props) => props.theme["white"]};
     text-transform: uppercase;
     font-weight: bold;
-    font-size: clamp(1rem, 0.9vw, 1.5rem);
+    font-size: 1.25rem;
 
     &:hover {
       transition: color 0.2s;
@@ -62,11 +61,11 @@ export const NavWrapper = styled.nav`
     ul {
       flex-direction: column;
       gap: 0;
-      width: auto;
-      background: radial-gradient(
-        circle,
-        rgba(191, 159, 36, 1) 0%,
-        rgba(130, 112, 59, 1) 50%,
+      width: 100vw;
+      background: linear-gradient(
+        90deg,
+        rgba(128, 111, 47, 1) 0%,
+        rgba(163, 134, 49, 0.7469362745098039) 50%,
         rgba(191, 159, 36, 1) 100%
       );
     }

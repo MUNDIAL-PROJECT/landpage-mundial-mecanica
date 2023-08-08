@@ -7,6 +7,10 @@ export const HeroContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    height: 70vh;
+  }
 `;
 
 export const HeroContent = styled.div`
@@ -16,35 +20,40 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 1.25rem;
 
   h1 {
     color: ${(props) => props.theme["white"]};
     font-size: clamp(2.5rem, 3vw, 4rem);
+
+    strong {
+      color: ${(props) => props.theme["mundial-lightblue"]};
+    }
   }
 
   p {
     color: ${(props) => props.theme["mundial-gold"]};
     font-style: italic;
-    text-align: center;
-    font-size: clamp(1.25em, 1.5vw, 2.25rem);
+    font-weight: bold;
+    font-size: clamp(1.25rem, 1.5vw, 2rem);
+    padding-inline: 1rem;
   }
 
   .hero-buttons {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 20px;
+    gap: 2rem;
+    margin-top: 1.25rem;
 
     a {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 15px;
+      font-family: "Bai Jamjuree", sans-serif;
+      border-radius: 50px;
       color: #fff;
-      font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+      font-size: clamp(1.5rem, 1.5vw, 1.75rem);
       background-color: ${(props) => props.theme["mundial-gold"]};
       width: 200px;
       height: 50px;
@@ -56,10 +65,6 @@ export const HeroContent = styled.div`
         background-color: ${(props) => props.theme["mundial-darkblue"]};
       }
     }
-  }
-
-  @media (max-width: 768px) {
-    gap: 4rem;
   }
 `;
 
@@ -79,6 +84,6 @@ export const DarkOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5));
   z-index: 1;
 `;
