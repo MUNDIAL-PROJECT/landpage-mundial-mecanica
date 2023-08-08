@@ -9,10 +9,10 @@ export const Hero = () => {
   return (
     <HeroContainer>
       <HeroContent>
-        <h1>Mecânica Mundial</h1>
         <p>
-          “Confiabilidade e Performance em Cada Rotação, <br />
-          somos a Mecânica de Confiança!”
+          Qualidade, agilidade e preço justo.
+          <br />
+          Cuidando do seu veículo nos mínimos detalhes!
         </p>
         <div className="hero-buttons">
           <Link to="/sobre">Sobre nós</Link>
