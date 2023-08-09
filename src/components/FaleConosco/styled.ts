@@ -18,25 +18,10 @@ export const FaleContainer = styled.section`
 
 export const FaleContentImg = styled.div`
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  span{
-    margin-top: 3px;
-    text-align: center;
-    font-size: .6rem;
-    color: #999;
-  }
-
-  img{
-    width: 90%;
-    height: 100%;
-    border-radius: 10px;
-  }
-  
+  background-color: red;
+  margin: 0 auto;
   @media(max-width: 800px){
-    order: 2;
+    
   }
 `;
 

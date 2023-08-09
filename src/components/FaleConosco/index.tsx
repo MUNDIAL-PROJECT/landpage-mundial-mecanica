@@ -1,5 +1,5 @@
 import { FaleContainer, FaleContentForm, FaleContentImg } from './styled';
-import Maps from '../../assets/Maploc.png';
+import { Map } from '../Map/Index';
 //Form
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -12,8 +12,7 @@ export const FaleConosco = () => {
   return (
     <FaleContainer id="faleconosco">
       <FaleContentImg>
-        <img src={Maps} alt="localização"  />
-        <span> Rua Dr. Tuany Toledo Júnior, 20 | Bairro Nova Pouso Alegre <br /> CEP 37553-476</span>
+        <Map />
       </FaleContentImg>
       <FaleContentForm>
         <form onSubmit={handleSubmit} className='faleForm'>
