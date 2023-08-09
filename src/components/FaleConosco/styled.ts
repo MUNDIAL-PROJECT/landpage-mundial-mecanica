@@ -4,8 +4,11 @@ export const FaleContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px;
+  padding: 50px 20px;
   gap: 1rem;
+  margin-top: 30px;
+  color: #FFF;
+  background-color: ${({theme}) => theme["mundial-lightblack"]};
 
   
   @media(max-width: 800px){
@@ -23,7 +26,7 @@ export const FaleContentImg = styled.div`
     margin-top: 3px;
     text-align: center;
     font-size: .6rem;
-    color: #555;
+    color: #999;
   }
 
   img{
@@ -65,6 +68,7 @@ export const FaleContentForm = styled.div`
       border-radius: 10px;
       border: none;
       resize: none;
+      height: 100px;
     }
     button{
       background-color: ${(props) => props.theme["mundial-gold"]};

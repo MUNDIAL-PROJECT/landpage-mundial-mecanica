@@ -1,6 +1,10 @@
+import { TrabalheContainer } from './styles';
+
 
 export const TrabalheConosco = () => {
   return (
-    <div>Trabalhe Conosco</div>
+    <TrabalheContainer>
+      Testando
+    </TrabalheContainer>
   )
 }
