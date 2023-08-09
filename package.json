@@ -12,20 +12,15 @@
   "dependencies": {
     "@formspree/react": "^2.5.0",
     "@phosphor-icons/react": "^2.0.10",
-    "leaflet": "^1.9.4",
+    "@react-google-maps/api": "^2.19.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.14.2",
-    "react-select": "^5.7.4",
-    "styled-components": "^6.0.4",
-    "uuid": "^9.0.0"
+    "styled-components": "^6.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-    "@types/react-leaflet": "^3.0.0",
-    "@types/react-select": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react": "^4.0.1",
