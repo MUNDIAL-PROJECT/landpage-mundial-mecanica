@@ -12,7 +12,7 @@ export const SocialMedia = () => {
         <a href="https://instagram.com" target="blank">
           <img src={instaLogo} alt="" />
         </a>
-        <a href="https://facebook.com" target="blank">
+        <a href="https://www.facebook.com/mecanicamundial87" target="blank">
           <img src={faceLogo} alt="" />
         </a>
       </IconContainer>
