@@ -1,5 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const MapContainer = styled.div`
-height: 400px;
+  height: 400px;
 `;

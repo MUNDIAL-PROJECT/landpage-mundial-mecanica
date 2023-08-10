@@ -42,7 +42,7 @@ export const Footer = () => {
 
       <RightContainer>
         <ContactContainer>
-          <SectionTitle>Entre em contato conosco!</SectionTitle>
+          <SectionTitle>Entre em contato!</SectionTitle>
           <ContactInfoWrapper>
             <li>
               <EnvelopeSimple size={26} color="#BF9F24" weight="fill" />
