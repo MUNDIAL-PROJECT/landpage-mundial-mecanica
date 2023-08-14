@@ -18,8 +18,7 @@ export const FaleContainer = styled.section`
 export const FaleContentImg = styled.div`
   width: 100%;
   margin: 0 auto;
-  @media (max-width: 800px) {
-  }
+  background-color: red;
 `;
 
 export const FaleContentForm = styled.div`
