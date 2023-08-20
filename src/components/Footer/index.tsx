@@ -11,6 +11,7 @@ import {
 import mundialLogo from "../../assets/mundial-logo.png";
 import { Engine, EnvelopeSimple, Wrench } from "@phosphor-icons/react";
 import { SocialMedia } from "../SocialMedia";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -37,7 +38,7 @@ export const Footer = () => {
       </LeftContainer>
 
       <LogoContainer>
-        <img src={mundialLogo} alt="" />
+        <Link to="/"><img src={mundialLogo} alt="" /></Link>
       </LogoContainer>
 
       <RightContainer>
