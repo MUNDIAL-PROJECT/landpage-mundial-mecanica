@@ -38,21 +38,18 @@ export function HeaderMenu() {
       <NavWrapper>
         <ul>
           <List className="hamburguer" onClick={handleMenuOpen} />
-          <Link to="/">
+          <Link to="/sobre-nos">
             <li className="hamburguerItem">A Mundial</li>
           </Link>
-          <Link to="/">
+          <Link to="/servicos">
             <li className="hamburguerItem">Serviços</li>
           </Link>
-          <Link to="/">
-            <li className="hamburguerItem">Agendamentos</li>
-          </Link>
-          <Link to="/">
+          <Link to="/trabalhe-conosco">
             <li className="hamburguerItem">Trabalhe Conosco</li>
           </Link>
-          <Link to="/">
+          <a href="#faleconosco">
             <li className="hamburguerItem">Contato</li>
-          </Link>
+          </a>
         </ul>
       </NavWrapper>
     </Container>
