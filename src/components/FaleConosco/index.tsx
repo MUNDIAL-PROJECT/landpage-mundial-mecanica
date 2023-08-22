@@ -8,7 +8,7 @@ import {
 import { useForm, ValidationError } from "@formspree/react";
 
 export const FaleConosco = () => {
-  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_KEY);
+  const [state, handleSubmit] = useForm('myyqewwp');
   const inputs = document.querySelectorAll("input");
   const textarea = document.getElementById("message") as HTMLInputElement;
   if (state.succeeded) {
