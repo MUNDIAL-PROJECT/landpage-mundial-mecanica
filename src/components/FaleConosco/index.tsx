@@ -8,7 +8,7 @@ import {
 import { useForm, ValidationError } from "@formspree/react";
 
 export const FaleConosco = () => {
-  const [state, handleSubmit] = useForm("myyqewwp");
+  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_KEY);
   const inputs = document.querySelectorAll("input");
   const textarea = document.getElementById("message") as HTMLInputElement;
   if (state.succeeded) {
@@ -16,10 +16,12 @@ export const FaleConosco = () => {
     textarea.value = "";
   }
 
+  const apiKey = import.meta.env.VITE_GOOGLE_MAP_KEY;
+
   return (
     <FaleContainer id="faleconosco">
       <FaleContentImg>
-        <LocalMap />
+        <LocalMap googleMapsApiKey={apiKey}/>
       </FaleContentImg>
       <FaleContentForm>
         <form onSubmit={handleSubmit} className="faleForm">

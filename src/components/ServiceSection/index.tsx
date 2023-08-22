@@ -82,7 +82,7 @@ export const ServiceSection = () => {
           </div>
         </CardContainer>
       </CardWrapper>
-      <Link to="/serviços">
+      <Link to="/servicos">
         <button>
           Ver todos serviços <ArrowRight size={22} />
         </button>

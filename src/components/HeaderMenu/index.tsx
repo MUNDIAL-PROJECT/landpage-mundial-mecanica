@@ -47,7 +47,7 @@ export function HeaderMenu() {
           <Link to="/trabalhe-conosco">
             <li className="hamburguerItem">Trabalhe Conosco</li>
           </Link>
-          <a href="#faleconosco">
+          <a href="/#faleconosco">
             <li className="hamburguerItem">Contato</li>
           </a>
         </ul>

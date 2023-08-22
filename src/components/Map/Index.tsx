@@ -1,15 +1,19 @@
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 import { MapContainer } from "./styles";
 
+interface LocalMapProps {
+  googleMapsApiKey: string
+}
+
 const center = {
   lat: -22.22591,
   lng: -45.9254,
 };
 
-export const LocalMap = () => {
+export const LocalMap: React.FC<LocalMapProps> = ({googleMapsApiKey}) => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBgXysLDEJm93BQIA-IP6TTwLtaxCBYwVc",
+    googleMapsApiKey: googleMapsApiKey
   });
 
   return (
