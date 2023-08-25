@@ -44,6 +44,9 @@ export function HeaderMenu() {
           <Link to="/servicos">
             <li className="hamburguerItem">Serviços</li>
           </Link>
+          <Link to="/autopeças">
+            <li className="hamburguerItem">Auto Peças</li>
+          </Link>
           <Link to="/trabalhe-conosco">
             <li className="hamburguerItem">Trabalhe Conosco</li>
           </Link>

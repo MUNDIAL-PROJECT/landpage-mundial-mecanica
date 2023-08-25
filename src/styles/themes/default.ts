@@ -14,5 +14,6 @@ export const defaultTheme = {
   'mundial-gold': '#BF9F24',
   'mundial-lightblue': '#0DAAE7',
   'mundial-darkblue': '#011426',
-  'mundial-black': '#0C0202'
+  'mundial-black': '#0C0202',
+  'mundial-lightgold': '#f3e8bf'
 } as const

@@ -5,7 +5,7 @@ import { ServiceCard } from "../../components/ServiceCard"
 export const Servicos = () => {
   return (
     <Container>
-      <ContainerTitle>Conheça nosso serviços!</ContainerTitle>
+      <ContainerTitle>Conheça nossos serviços!</ContainerTitle>
       <ServiceWrapper>
       {
         DATA_MOCK.map((item) => {

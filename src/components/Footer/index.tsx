@@ -18,7 +18,6 @@ export const Footer = () => {
     <FooterContainer>
       <LeftContainer>
         <div>
-          <SectionTitle>Redes Sociais</SectionTitle>
           <SocialMedia />
         </div>
         <AddressContainer>

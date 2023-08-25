@@ -33,7 +33,7 @@ export const FaleContentForm = styled.div`
 
     h3 {
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 2.5rem;
       border-bottom: 3px solid ${(props) => props.theme["mundial-gold"]};
     }
 
@@ -66,12 +66,6 @@ export const FaleContentForm = styled.div`
         color: ${(props) => props.theme["mundial-black"]};
       }
     }
-
-    @media (max-width: 768px) {
-      h3 {
-        font-size: 1.5rem;
-      }
-    }
   }
 `;
 
@@ -82,7 +76,7 @@ export const FormTitleContainer = styled.div`
   gap: 1rem;
 
   p {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: ${(props) => props.theme["white"]};
   }

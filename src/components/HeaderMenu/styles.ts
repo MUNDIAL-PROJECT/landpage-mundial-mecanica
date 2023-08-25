@@ -30,7 +30,7 @@ export const NavWrapper = styled.nav`
     justify-content: space-around;
     align-items: center;
 
-    width: 50rem;
+    width: 70rem;
     gap: 3rem;
     padding: 0.75rem 2rem;
 
