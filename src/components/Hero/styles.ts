@@ -55,15 +55,24 @@ export const HeroContent = styled.div`
       color: #fff;
       font-size: clamp(1.5rem, 1.5vw, 1.75rem);
       background-color: ${(props) => props.theme["mundial-gold"]};
-      width: 200px;
-      height: 50px;
+      width: 12.5rem;
+      height: 3.125rem;
       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
         rgba(0, 0, 0, 0.22) 0px 15px 12px;
-      transition: 0.4s;
 
       &:hover {
+        transition: background-color 0.3s;
         background-color: ${(props) => props.theme["mundial-darkblue"]};
       }
+    }
+
+    .about {
+      background-color: ${(props) => props.theme["mundial-lightgold"]};
+      color: #000;
+    }
+
+    .about:hover {
+      color: #fff;
     }
   }
 `;

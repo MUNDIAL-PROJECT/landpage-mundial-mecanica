@@ -7,8 +7,8 @@ export const CardContainer = styled.div`
   align-items: center;
   max-width: 400px;
 
-  background: ${props => props.theme["gray-700"]};
-  color: ${props => props.theme["white"]};
+  background: ${(props) => props.theme["gray-700"]};
+  color: ${(props) => props.theme["white"]};
 
   border-radius: 10px;
   gap: 1rem;
@@ -17,7 +17,7 @@ export const CardContainer = styled.div`
 
   h1 {
     font-size: clamp(1.3rem, 1.5vw, 1.5rem);
-    color: ${props => props.theme["mundial-gold"]};
+    color: ${(props) => props.theme["mundial-gold"]};
   }
 
   img {
@@ -31,5 +31,10 @@ export const CardContainer = styled.div`
     padding: 0 1rem;
     line-height: 1.4;
     font-size: clamp(1rem, 1vw, 1.2rem);
+  }
+
+  &:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
   }
 `;

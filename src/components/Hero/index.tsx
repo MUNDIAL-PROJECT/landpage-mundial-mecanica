@@ -15,8 +15,8 @@ export const Hero = () => {
           Cuidando do seu veículo nos mínimos detalhes!
         </p>
         <div className="hero-buttons">
-          <Link to="/sobre-nos">Sobre nós</Link>
-          <a href="#faleconosco">Contato</a>
+          <Link className="about" to="/sobre-nos">Sobre nós</Link>
+          <a  href="#faleconosco">Contato</a>
         </div>
       </HeroContent>
       <BackgroundImage />
