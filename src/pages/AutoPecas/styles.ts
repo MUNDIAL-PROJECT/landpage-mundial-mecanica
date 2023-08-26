@@ -48,6 +48,10 @@ export const Subtitle = styled.h2`
   color: ${props => props.theme['mundial-gold']};
   line-height: 1.6;
   font-size: 1.75rem;
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+    padding: 0 10px;
+  }
 `
 
 export const AlternativeTitle = styled.h3`
@@ -55,6 +59,10 @@ export const AlternativeTitle = styled.h3`
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 0.75rem;
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      padding-bottom: 1.2rem;
+    }
 `
 
 export const WppWorkContainer = styled.div`
