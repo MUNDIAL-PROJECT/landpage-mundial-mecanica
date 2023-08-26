@@ -8,7 +8,6 @@ export const FaleContainer = styled.section`
   gap: 1.5rem;
   background-color: ${({ theme }) => theme["mundial-lightblack"]};
   color: #fff;
-  margin-top: 30px;
 
   @media (max-width: 768px) {
     flex-direction: column;
