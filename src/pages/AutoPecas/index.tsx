@@ -2,7 +2,7 @@ import {
   AlternativeTitle,
   Container,
   ContainerTitle,
-  ServiceWrapper,
+  ProductWrapper,
   Subtitle,
   TextContainer,
   WppWorkContainer,
@@ -31,15 +31,14 @@ export const AutoPecas = () => {
           btnTitle="Whatsapp"
         />
       </WppWorkContainer>
-
-      <AlternativeTitle>
-        Veja alguns exemplos de nossos produtos:
-      </AlternativeTitle>
-      <ServiceWrapper>
-        {PRODUCT_MOCK.map((item) => {
-          return <ProductCard key={item.id} item={item} />;
-        })}
-      </ServiceWrapper>
+        <AlternativeTitle>
+          Conheça alguns de nossos produtos:
+        </AlternativeTitle>
+        <ProductWrapper>
+          {PRODUCT_MOCK.map((item) => {
+            return <ProductCard key={item.id} item={item} />;
+          })}
+        </ProductWrapper>
     </Container>
   );
 };

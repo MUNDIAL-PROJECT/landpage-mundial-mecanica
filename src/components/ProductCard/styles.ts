@@ -11,19 +11,18 @@ export const CardContainer = styled.div`
   color: ${(props) => props.theme["white"]};
 
   border-radius: 10px;
-  gap: 1rem;
   text-align: center;
   padding: 1rem 0;
 
   h1 {
     font-size: clamp(1.3rem, 1.5vw, 1.5rem);
     color: ${(props) => props.theme["mundial-gold"]};
+    padding-bottom: 0.5rem;
   }
 
   img {
     width: 100%;
-    height: 100%;
-    max-height: 220px;
+    height: 220px;
     object-fit: cover;
   }
 
@@ -37,4 +36,32 @@ export const CardContainer = styled.div`
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
   }
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    background-color: ${props => props.theme['gray-900']};
+    font-size: clamp(0.875rem, 1vw, 1.3rem);
+    font-weight: bold;
+    color: ${props => props.theme['mundial-lightgold']};
+    text-transform: uppercase;
+    font-style: italic;
+  
+
+    @media (max-width: 1366px) {
+      padding-inline: 0.5rem;
+  }
+}
 `;
+
+export const CardInfo = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    & > p {
+      padding-top: 0.5rem;
+    }
+`

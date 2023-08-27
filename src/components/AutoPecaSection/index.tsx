@@ -16,7 +16,7 @@ export const AutoPecaSection = () => {
 
       <Link to="/autopeças">
         <button>
-          Ver todos os produtos <ArrowRight size={22} />
+          Ver todos produtos <ArrowRight size={22} />
         </button>
       </Link>
     </AutoContianer>

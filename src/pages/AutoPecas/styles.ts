@@ -16,15 +16,16 @@ export const ContainerTitle = styled.h1`
     padding-bottom: 2rem;
 `
 
-export const ServiceWrapper = styled.div`
+export const ProductWrapper = styled.div`
   display: grid;
   grid: auto auto / auto-flow 1fr;
   justify-content: center;
+  margin: 0 auto;
   column-gap: 1rem;
   row-gap: 2rem;
 
   @media (min-width: 2100px) {
-    grid: auto / auto auto auto;
+    grid: auto / auto auto auto auto;
     column-gap: 4rem;
   }
 
@@ -59,9 +60,13 @@ export const AlternativeTitle = styled.h3`
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 0.75rem;
+    margin-left: 10%;
+
+    
     @media (max-width: 768px) {
       font-size: 1.5rem;
       padding-bottom: 1.2rem;
+      margin-left: auto;
     }
 `
 
