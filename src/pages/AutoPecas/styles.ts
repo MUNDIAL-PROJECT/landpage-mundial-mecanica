@@ -25,7 +25,7 @@ export const ProductWrapper = styled.div`
   row-gap: 2rem;
 
   @media (min-width: 2100px) {
-    grid: auto / auto auto auto auto;
+    grid: auto / auto auto auto auto auto;
     column-gap: 4rem;
   }
 
@@ -60,7 +60,6 @@ export const AlternativeTitle = styled.h3`
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 0.75rem;
-    margin-left: 10%;
 
     
     @media (max-width: 768px) {
