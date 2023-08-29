@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const FooterContainer = styled.footer`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -50,9 +50,6 @@ export const AddressContainer = styled.div`
 `;
 
 export const LogoContainer = styled.div`
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 
   img {
     max-width: 7rem;

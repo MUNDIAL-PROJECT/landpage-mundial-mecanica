@@ -32,7 +32,7 @@ export const HeroContent = styled.div`
   }
 
   p {
-    color: ${(props) => props.theme["mundial-gold"]};
+    color: ${(props) => props.theme["mundial-lightgold"]};
     font-style: italic;
     font-weight: bold;
     font-size: clamp(1.25rem, 1.5vw, 2rem);
@@ -93,6 +93,6 @@ export const DarkOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.65));
   z-index: 1;
 `;

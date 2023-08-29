@@ -39,13 +39,13 @@ export const ServiceContainer = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-inline: 1rem;
-  align-items: center;
-  font-family: "Bai Jamjuree", sans-serif;
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
 `;
 
 export const CardContainer = styled.div`
@@ -61,15 +61,16 @@ export const CardContainer = styled.div`
   padding: 1rem;
   border-radius: 8px;
 
-  background: ${(props) => props.theme["gray-100"]};
+  background: ${(props) => props.theme["gray-600"]};
 
   p {
     font-size: clamp(1rem, 1.25rem, 1.5rem);
-    color: ${(props) => props.theme["mundial-darkblue"]};
+    color: ${(props) => props.theme["white"]};
   }
 
   h3 {
     font-size: clamp(1.5rem, 1.75vw, 1.5rem);
+    color: ${(props) => props.theme["mundial-gold"]};
   }
 
   .cardIcon {
