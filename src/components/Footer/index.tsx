@@ -16,30 +16,27 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <FooterContainer>
-      <LeftContainer>
-        <div>
-          <SocialMedia />
-        </div>
-        <AddressContainer>
-          <SectionTitle>Venha nos conhecer!</SectionTitle>
-          <section>
-            <address>
-              Rua Dr. Tuany Toledo Júnior, 20
-              <br />
-              Bairro Nova Pouso Alegre
-              <br />
-              Pouso Alegre, MG
-              <br />
-              CEP 37553-476
-            </address>
-          </section>
-        </AddressContainer>
-      </LeftContainer>
-
       <LogoContainer>
-        <Link to="/"><img src={mundialLogo} alt="" /></Link>
+        <Link to="/">
+          <img src={mundialLogo} alt="" />
+        </Link>
       </LogoContainer>
+      <LeftContainer></LeftContainer>
 
+      <AddressContainer>
+        <SectionTitle>Venha nos conhecer!</SectionTitle>
+        <section>
+          <address>
+            Rua Dr. Tuany Toledo Júnior, 20
+            <br />
+            Bairro Nova Pouso Alegre
+            <br />
+            Pouso Alegre, MG
+            <br />
+            CEP 37553-476
+          </address>
+        </section>
+      </AddressContainer>
       <RightContainer>
         <ContactContainer>
           <SectionTitle>Entre em contato!</SectionTitle>
@@ -48,9 +45,7 @@ export const Footer = () => {
               <EnvelopeSimple size={26} color="#BF9F24" weight="fill" />
               <h4>
                 Email{"  "}
-                <a href="mailto:mecmundial@bol.com.br">
-                  mecmundial@bol.com.br
-                </a>
+                <a href="mailto:mecmundial@bol.com.br">mecmundial@bol.com.br</a>
               </h4>
             </li>
             <li>
@@ -65,6 +60,7 @@ export const Footer = () => {
             </li>
           </ContactInfoWrapper>
         </ContactContainer>
+        <SocialMedia />
       </RightContainer>
     </FooterContainer>
   );
