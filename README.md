@@ -20,24 +20,24 @@ A Landing Page foi o meio proposto para dar maior visibilidade da empresa e de s
 
 
 ### 1. Avaliação dos Objetivos e Escopo Geral
-```Primeiro nos reunimos para discutir como fariamos a estrutura do site baseado nos requisitos dos clientes. Depois organizamos um quadro de Tarefas dentro do Github para designarmos as tarefas necessárias para cumprir o objetivo.```
+Primeiro nos reunimos para discutir como fariamos a estrutura do site baseado nos requisitos dos clientes. Depois organizamos um quadro de Tarefas dentro do Github para designarmos as tarefas necessárias para cumprir o objetivo.
 
 ### 2. Montagem do Layout
-```O próximo passo foi realizado na idealização do estilo e do layout do site. Montamos um Figma para registrar as cores, fontes e demais informações padronizadas, e também para desenvolver um wireframe de média qualidade para nos orientarmos em questão de componentização, posicionamento e estilização.```
+O próximo passo foi realizado na idealização do estilo e do layout do site. Montamos um Figma para registrar as cores, fontes e demais informações padronizadas, e também para desenvolver um wireframe de média qualidade para nos orientarmos em questão de componentização, posicionamento e estilização.
 
 ### 3. Execução das tarefas
-```Trabalhamos em todas tarefas propostas para cumprir com o objetivo inicial.```
+Trabalhamos em todas tarefas propostas para cumprir com o objetivo inicial.
 
 ### 4. Reavaliação
-```Após o término da primeira versão do projeto, fizemos uma revisão para observar pontos de melhoria ou de requisitos que não foram atendidos. Uma das coisas foi que inicialmente não enfatizamos na venda de peças, que é um dos braços do negócio da Mecânica Mundial. Então decidimos trabalhar em uma página dedicada a este assunto.```
+Após o término da primeira versão do projeto, fizemos uma revisão para observar pontos de melhoria ou de requisitos que não foram atendidos. Uma das coisas foi que inicialmente não enfatizamos na venda de peças, que é um dos braços do negócio da Mecânica Mundial. Então decidimos trabalhar em uma página dedicada a este assunto.
 
 ### 5. Replanejamento de Tarefas
-```Fizemos uma segundada rodada de planejamento para decidir quais tarefas seriam necessárias para atingir os demais requisitos.```
+Fizemos uma segundada rodada de planejamento para decidir quais tarefas seriam necessárias para atingir os demais requisitos.
 
 ### 6. Execução das Tarefas
-```Continuamos trabalhando nas demais tarefas designadas.```
+Continuamos trabalhando nas demais tarefas designadas.
 ### 7. Documentação README e Última Avaliação
-```Fizemos uma documentação do projeto via README, atualizando ela localmente durante a execução do projeto. O último passo foi finalizar a documentação e reavaliar pela última vez o cumprimento de todos requisitos.```
+Fizemos uma documentação do projeto via README, atualizando ela localmente durante a execução do projeto. O último passo foi finalizar a documentação e reavaliar pela última vez o cumprimento de todos requisitos.
 
 ### Equipe
 Desenvolvedores: 
