@@ -18,38 +18,30 @@ A Landing Page foi o meio proposto para dar maior visibilidade da empresa e de s
 
 ## Etapas Gerais
 
-### 1 - Avaliação dos Objetivos e Escopo Geral
 
-Primeiro nos reunimos para discutir como fariamos a estrutura do site baseado nos requisitos dos clientes. Depois organizamos um quadro de Tarefas dentro do Github para designarmos as tarefas necessárias para cumprir o objetivo.
+### 1. Avaliação dos Objetivos e Escopo Geral
+```Primeiro nos reunimos para discutir como fariamos a estrutura do site baseado nos requisitos dos clientes. Depois organizamos um quadro de Tarefas dentro do Github para designarmos as tarefas necessárias para cumprir o objetivo.```
 
-### 2 - Montagem do Layout
+### 2. Montagem do Layout
+```O próximo passo foi realizado na idealização do estilo e do layout do site. Montamos um Figma para registrar as cores, fontes e demais informações padronizadas, e também para desenvolver um wireframe de média qualidade para nos orientarmos em questão de componentização, posicionamento e estilização.```
 
-O próximo passo foi realizado na idealização do estilo e do layout do site. Montamos um Figma para registrar as cores, fontes e demais informações padronizadas, e também para desenvolver um wireframe de média qualidade para nos orientarmos em questão de componentização, posicionamento e estilização.
+### 3. Execução das tarefas
+```Trabalhamos em todas tarefas propostas para cumprir com o objetivo inicial.```
 
-### 3 - Execução das tarefas
+### 4. Reavaliação
+```Após o término da primeira versão do projeto, fizemos uma revisão para observar pontos de melhoria ou de requisitos que não foram atendidos. Uma das coisas foi que inicialmente não enfatizamos na venda de peças, que é um dos braços do negócio da Mecânica Mundial. Então decidimos trabalhar em uma página dedicada a este assunto.```
 
-Trabalhamos em todas tarefas propostas para cumprir com o objetivo inicial.
+### 5. Replanejamento de Tarefas
+```Fizemos uma segundada rodada de planejamento para decidir quais tarefas seriam necessárias para atingir os demais requisitos.```
 
-### 4 - Reavaliação
-
-Após o término da primeira versão do projeto, fizemos uma revisão para observar pontos de melhoria ou de requisitos que não foram atendidos. Uma das coisas foi que inicialmente não enfatizamos na venda de peças, que é um dos braços do negócio da Mecânica Mundial. Então decidimos trabalhar em uma página dedicada a este assunto.
-
-### 5 - Replanejamento de Tarefas
-
-Fizemos uma segundada rodada de planejamento para decidir quais tarefas seriam necessárias para atingir os demais requisitos.
-
-### 6 - Execução das Tarefas
-
-Continuamos trabalhando nas demais tarefas designadas.
-
-### 7 - Documentação README e Última Avaliação
-
-Fizemos uma documentação do projeto via README, atualizando ela localmente durante a execução do projeto. O último passo foi finalizar a documentação e reavaliar pela última vez o cumprimento de todos requisitos.
+### 6. Execução das Tarefas
+```Continuamos trabalhando nas demais tarefas designadas.```
+### 7. Documentação README e Última Avaliação
+```Fizemos uma documentação do projeto via README, atualizando ela localmente durante a execução do projeto. O último passo foi finalizar a documentação e reavaliar pela última vez o cumprimento de todos requisitos.```
 
 ### Equipe
 Desenvolvedores: 
 - [@Eric Kunzel](https://github.com/kunzeleric)
-- [@Pedro Magalhães](https://www.github.com/PedroHVMagalhaes)
 - [@Guilherme Gomes](https://github.com/Gguife)
 - [@Douglas Dantas](https://github.com/douglasleg1)
 
@@ -57,15 +49,13 @@ Desenvolvedores:
 
 ## Etapas Gerais
 ### Parte 1 - Estrutura 🏗 e Estilização 👨‍🎨
-<h1>Tecnologias Utilizadas</h1>
-<div><br>
-  *React <br/>
-  *Typescript <br/>
-  *Styled Components <br/>
-  *Formspree <br/>
-  *Google Maps API <br/>
-</div>
+#### Tecnologias Utilizadas
 
+* React
+* TypeScript
+* Styled-components
+* Formspree
+* Google Maps API
 
 #### IDE Utilizada
 <div> 
@@ -88,10 +78,12 @@ O site tem responsividade para celulares.
 
 ### Parte 4 - Deployment ☁
 
-Deploy realizado pela plataforma Netlify. Clique no botão abaixo e acesse o projeto.
+Deploy realizado pela plataforma Netlify. Clique no botão abaixo e acesse o projeto.</br>
+<img src="./src/assets/Mecanica-landpage.gif" width="40%"><br/>
 [![portfolio](https://img.shields.io/badge/-CLIQUE%20AQUI-yellowgreen)](https://mecanica-mundial.netlify.app/)
 
-## Como rodar
+
+## Como rodar ?
 Clone esse repositório em um diretório na sua máquina local, abra o diretório utilizando a sua IDE de preferência. No terminal da sua IDE, rode esses seguintes comandos:
 
 <br>
